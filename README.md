@@ -4,4 +4,4 @@ Hi, I'm an junior Web developer able to build a Web presence from the ground up 
 
 I am passionate about what I do and always give 100%. When I undertake a project or task, I don't just complete it, I go the extra mile and make it better than requested.
 
-Here you can review my <a href="http://www.olroyko.pp.ua">online portfolio</a>
+Here you can review my <a href="http://www.olroyko.pp.ua/">online portfolio</a>
