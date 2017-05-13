@@ -6,4 +6,3 @@ I am passionate about what I do and always give 100%. When I undertake a project
 
 Here you can review my <a href="http://www.olroyko.pp.ua/">online portfolio</a>
 
-Test here
