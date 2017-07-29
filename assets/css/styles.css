@@ -362,7 +362,7 @@ iframe {
   margin-bottom: 30px;
 }
 .skills .skillset .level-title {
-  font-size: 16px;
+  font-size: 15px;
   position: relative;
   margin-top: 0;
   margin-bottom: 10px;
@@ -384,6 +384,10 @@ iframe {
   height: 15px;
   background: #66cb8c;
 }
+#project_types {
+  font-size: 14px;
+}
+
 /* Testimonials section */
 .testimonials .item {
   margin-bottom: 30px;
@@ -434,6 +438,9 @@ iframe {
 .education .item .university .year {
   color: #b0b7bf;
   font-weight: 500;
+}
+.education .fa {
+  margin-right: 5px;
 }
 /* Language Section */
 .languages .item {
