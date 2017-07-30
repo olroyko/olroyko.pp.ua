@@ -53,6 +53,72 @@ jQuery(document).ready(function($) {
         
         }
     );
+
+// Key facts
+//    CLIENTS ONFO
+    var clients_info = new ProgressBar.Circle(clients, {
+        strokeWidth: 8,
+        easing: 'easeInOut',
+        duration: 1800,
+        color: '#66cb8c',
+        trailColor: '#eee',
+        trailWidth: 1,
+        text: {
+            // Initial value for text.
+            // Default: null
+            value: '30 projects',
+            // Class name for text element.
+            // Default: 'progressbar-text'
+            className: 'progressbar__label',
+            // Inline CSS styles for the text element.
+            // If you want to modify all CSS your self, set null to disable
+            // all default styles.
+            // If the style option contains values, container is automatically
+            // set to position: relative. You can disable behavior this with
+            // autoStyleContainer: false
+            // If you specify anything in this object, none of the default styles
+            // apply
+            // Default: object speficied below
+            style: {
+                // Text color.
+                // Default: same as stroke color (options.color)
+                color: '#f00',
+                position: 'absolute',
+                left: '50%',
+                top: '50%',
+                padding: 0,
+                margin: 0,
+                fontsize: 20,
+                // You can specify styles which will be browser prefixed
+                transform: {
+                    prefix: true,
+                    value: 'translate(-50%, -50%)'
+                }
+            },
+
+            // Only effective if the text.style is not null
+            // By default position: relative is applied to container if text
+            // is set. Setting this to false disables that feature.
+            autoStyleContainer: true,
+
+            // Only effective if the shape is SemiCircle.
+            // If true, baseline for text is aligned with bottom of
+            // the SVG canvas. If false, bottom line of SVG canvas
+            // is in the center of text.
+            // Default: true
+            alignToBottom: true
+        },
+        svgStyle: null
+    });
+
+    window.onscroll = function() {displayAnimation()}; //function to display animation after scrolling down to 500px
+    function displayAnimation() {
+        if (document.body.scrollTop > 500) {
+            window.onscroll = null;
+            clients_info.animate(1.0).start();
+        }
+    }
+
     
     /* Github Calendar - https://github.com/IonicaBizau/github-calendar */
     GitHubCalendar("#github-graph", "olroyko");
