@@ -284,10 +284,27 @@ iframe {
   margin-bottom: 5px;
 }
 /*Key facts section*/
+#circles {
+  display: flex;
+}
 #clients {
   margin: 20px;
   width: 200px;
   height: 200px;
+}
+#projects {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+}
+#hours {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+}
+.progressbar__label {
+  font-size: 20px;
+  text-align: center;
 }
 /* Projects Section */
 .projects .item {
@@ -559,5 +576,12 @@ iframe {
 @media (min-width: 1400px) {
   .container {
     width: 1360px;
+  }
+}
+
+/*Hide the circles block on responsive*/
+@media only screen and (max-width: 420px) {
+  .key_facts {
+    display: none;
   }
 }
