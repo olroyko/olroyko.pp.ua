@@ -306,6 +306,9 @@ iframe {
   font-size: 20px;
   text-align: center;
 }
+.key_facts .item{
+  margin-top: 20px;
+}
 /* Projects Section */
 .projects .item {
   margin-bottom: 30px;
