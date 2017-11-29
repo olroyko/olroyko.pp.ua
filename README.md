@@ -1,6 +1,6 @@
 # Oleg Royko - Project manager
 
-Hi, I'm an junior Web developer able to build a Web presence from the ground up –– from concept, navigation and layout to coding and testing. An ambitious problem solver with a passion for online businesses, and who would like to join a team of like-minded developers.
+Hi, I'm a middle  Project manager to make you development flow smooth. An ambitious problem solver with a passion for online businesses. My experience is the mix of Business Analysis, QA and web developers skills.
 
 I am passionate about what I do and always give 100%. When I undertake a project or task, I don't just complete it, I go the extra mile and make it better than requested.
 
