@@ -189,6 +189,7 @@ iframe {
 }
 /* About Section */
 /* Latest Section */
+/* Activity Section */
 .latest .item {
   margin-bottom: 30px;
 }
@@ -279,6 +280,35 @@ iframe {
 .latest .featured-image .ribbon .text:after {
   right: 0;
 }
+.about li {
+  margin-bottom: 5px;
+}
+/*Key facts section*/
+#circles {
+  display: flex;
+}
+#clients {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+}
+#projects {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+}
+#hours {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+}
+.progressbar__label {
+  font-size: 20px;
+  text-align: center;
+}
+.key_facts .item{
+  margin-top: 20px;
+}
 /* Projects Section */
 .projects .item {
   margin-bottom: 30px;
@@ -362,7 +392,7 @@ iframe {
   margin-bottom: 30px;
 }
 .skills .skillset .level-title {
-  font-size: 16px;
+  font-size: 15px;
   position: relative;
   margin-top: 0;
   margin-bottom: 10px;
@@ -384,6 +414,10 @@ iframe {
   height: 15px;
   background: #66cb8c;
 }
+#project_types {
+  font-size: 14px;
+}
+
 /* Testimonials section */
 .testimonials .item {
   margin-bottom: 30px;
@@ -434,6 +468,9 @@ iframe {
 .education .item .university .year {
   color: #b0b7bf;
   font-weight: 500;
+}
+.education .fa {
+  margin-right: 5px;
 }
 /* Language Section */
 .languages .item {
@@ -542,5 +579,12 @@ iframe {
 @media (min-width: 1400px) {
   .container {
     width: 1360px;
+  }
+}
+
+/*Hide the circles block on responsive*/
+@media only screen and (max-width: 420px) {
+  .key_facts {
+    display: none;
   }
 }
