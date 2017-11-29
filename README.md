@@ -1,4 +1,4 @@
-# Oleg Royko - Web App Developer
+# Oleg Royko - Project manager
 
 Hi, I'm an junior Web developer able to build a Web presence from the ground up –– from concept, navigation and layout to coding and testing. An ambitious problem solver with a passion for online businesses, and who would like to join a team of like-minded developers.
 
